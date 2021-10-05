@@ -1,6 +1,7 @@
 package com.jiawa.wiki.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -18,5 +19,10 @@ public class TestController {
     @GetMapping("/hello")
     public String HelloWorld() {
         return "Hello World";
+    }
+
+    @PostMapping("/hello/post")
+    public String HelloWorldPost(String name) {
+        return "Hello World Name: " + name;
     }
 }
