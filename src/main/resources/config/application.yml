@@ -3,4 +3,4 @@ server:
 
 # 配置文件里，设置key=value的值，用@Value去获取
 test:
-  hello: Hello1
+  hello: Hello11113
