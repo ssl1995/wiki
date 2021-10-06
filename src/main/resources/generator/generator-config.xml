@@ -41,8 +41,8 @@
                              targetPackage="com.jiawa.wiki.mapper"
                              type="XMLMAPPER"/>
         <!--设置要自动生成的表名，以及对应的pojo-->
-        <table tableName="demo" domainObjectName="Demo"/>
-        <!--<table tableName="ebook"/>-->
+<!--        <table tableName="demo" domainObjectName="Demo"/>-->
+      <!--  <table tableName="ebook"/>-->
         <!--<table tableName="category"/>-->
         <!--<table tableName="doc"/>-->
         <!--<table tableName="content"/>-->
