@@ -1,12 +1,10 @@
 <template>
   <a-layout>
     <!-- 使用自定义组件 -->
-    <the-header></the-header>
+    <the-header/>
     <!-- 变化的页面，使用路由动态跳转-->
     <router-view/>
-    <a-layout-footer style="text-align: center">
-      电子书
-    </a-layout-footer>
+    <the-footer/>
   </a-layout>
 </template>
 
@@ -14,12 +12,14 @@
 import {defineComponent} from 'vue';
 // 导入自定义组件
 import TheHeader from '@/components/the-header.vue';
+import TheFooter from '@/components/the-footer.vue';
 
 
 export default defineComponent({
   name: 'app',
   components: {
     TheHeader,
+    TheFooter,
   },
 });
 </script>
